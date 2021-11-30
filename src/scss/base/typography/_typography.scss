@@ -9,3 +9,29 @@ body {
 // --------------------------
 //          CLASSES
 // --------------------------
+
+.ff-dm-serif {
+    font-family: "DM Serif Display";
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.fy-italic {
+    font-style: italic;
+}
+
+
+$sizes: (
+    sm: .8rem
+    md: 1rem,
+    lg: 1.2rem,
+    xl: 1.5rem
+);
+
+@each $id, $size in $sizes {
+    .fs-#{$id} {
+        font-size: $size;
+    }
+}
