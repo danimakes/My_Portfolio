@@ -1,0 +1,28 @@
+$cl-primary: #F2F2F2;
+$cl-secondary: #233D4D;
+$cl-secondary-dark: #1B3240;
+$cl-accent: #F14753;
+
+.fg-accent {
+    color: $cl-accent;
+}
+
+.fg-primary {
+    color: $cl-primary;
+}
+
+.bg-primary {
+    background-color: $cl-primary;
+}
+
+.fg-secondary {
+    color: $cl-secondary;
+}
+
+.bg-secondary {
+    background-color: $cl-secondary;
+}
+
+.bg-secondary-dark {
+    background-color: $cl-secondary-dark;
+}
