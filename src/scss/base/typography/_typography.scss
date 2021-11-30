@@ -19,11 +19,17 @@ $sizes: (
     sm: .8rem,
     md: 1rem,
     lg: 1.2rem,
-    xl: 1.5rem
+    xl: 1.5rem,
+    xxl: 3rem,
+    hg: 4rem
 );
 
 @each $id, $size in $sizes {
     .fs-#{$id} {
         font-size: $size;
     }
+}
+
+.tt-uppercase {
+    text-transform: uppercase;
 }
